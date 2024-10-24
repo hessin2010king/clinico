@@ -188,29 +188,20 @@ document.addEventListener('DOMContentLoaded', function () {
             const title = $(this).data('title');
             const description = $(this).data('description');
             const image = $(this).data('image');
-    
+            
             // Set the modal content
             $('#portfolioModalLabel').text(title);
             $('#portfolioDescription').text(description);
-            $('#portfolioImage').attr('src', image);
     
+            // Handle empty or missing image
+            const imageSrc = image ? image : 'images/default-image.jpg';
+            $('#portfolioImage').attr('src', imageSrc);
+            
             // Show the modal
             $('#portfolioModal').modal('show');
         });
-    
-        // Handle click on blog read more button
-        $('.read-more').on('click', function () {
-            const title = $(this).data('title');
-            const content = $(this).data('content');
-    
-            // Set the modal content
-            $('#blogModalLabel').text(title);
-            $('#blogContent').text(content);
-    
-            // Show the modal
-            $('#blogModal').modal('show');
-        });
     });
+    
     
 
 });
