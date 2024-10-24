@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
             // Handle empty or missing image
             const imageSrc = image ? image : 'images/default-image.jpg';
-            $('#portfolioImage').attr('src', imageSrc);
+            $('#portfolioImage').attr('src', imageSrc).attr('alt', title);
             
             // Show the modal
             $('#portfolioModal').modal('show');
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Handle empty or missing image
             const imageSrc = image ? image : 'images/default-image.jpg';
-            $('#blogImage').attr('src', imageSrc);
+            $('#blogImage').attr('src', imageSrc).attr('alt', title);
 
             // Show the modal
             $('#blogModal').modal('show');
