@@ -64,49 +64,49 @@
 
 
     <!-- Portfolio Section Start here -->
-<section id="portfolio" class="section py-5 bg-light">
-    <div class="container">
-        <h2 class="section-title mb-5">Our Work</h2>
-        <div class="row g-4">
-            <!-- Portfolio Card 1 -->
-            <div class="col-md-4">
-                <div class="portfolio-card shadow-lg">
-                    <img src="images/portfolio-image1.jpg" alt="Interior of a modern clinic with advanced medical equipment" class="img-fluid mb-3 rounded">
-                    <h5 class="portfolio-title">Modern Clinic Solution</h5>
-                    <p class="text-muted">A state-of-the-art clinic for the modern patient.</p>
-                    <a href="#" class="btn btn-outline-primary view-details" 
-                    data-title="Modern Clinic Solution" 
-                    data-description="A state-of-the-art clinic for the modern patient." 
-                    data-image="images/portfolio-image1.jpg">View Details</a>
+    <section id="portfolio" class="section py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title mb-5">Our Work</h2>
+            <div class="row g-4">
+                <!-- Portfolio Card 1 -->
+                <div class="col-md-4">
+                    <div class="portfolio-card shadow-lg">
+                        <img src="images/portfolio-image1.jpg" alt="Interior of a modern clinic with advanced medical equipment" class="img-fluid mb-3 rounded">
+                        <h5 class="portfolio-title">Modern Clinic Solution</h5>
+                        <p class="text-muted">A state-of-the-art clinic for the modern patient.</p>
+                        <a href="#" class="btn btn-outline-primary view-details" 
+                        data-title="Modern Clinic Solution" 
+                        data-description="A state-of-the-art clinic for the modern patient." 
+                        data-image="images/portfolio-image1.jpg">View Details</a>
+                    </div>
                 </div>
-            </div>
-            <!-- Portfolio Card 2 -->
-            <div class="col-md-4">
-                <div class="portfolio-card shadow-lg">
-                    <img src="images/portfolio-image2.jpg" alt="Exterior view of a high-tech medical facility" class="img-fluid mb-3 rounded">
-                    <h5 class="portfolio-title">High-Tech Medical Facility</h5>
-                    <p class="text-muted">An advanced medical facility with top-notch equipment.</p>
-                    <a href="#" class="btn btn-outline-primary view-details" 
-                    data-title="High-Tech Medical Facility" 
-                    data-description="An advanced medical facility with top-notch equipment." 
-                    data-image="images/portfolio-image2.jpg">View Details</a>
+                <!-- Portfolio Card 2 -->
+                <div class="col-md-4">
+                    <div class="portfolio-card shadow-lg">
+                        <img src="images/portfolio-image2.jpg" alt="Exterior view of a high-tech medical facility" class="img-fluid mb-3 rounded">
+                        <h5 class="portfolio-title">High-Tech Medical Facility</h5>
+                        <p class="text-muted">An advanced medical facility with top-notch equipment.</p>
+                        <a href="#" class="btn btn-outline-primary view-details" 
+                        data-title="High-Tech Medical Facility" 
+                        data-description="An advanced medical facility with top-notch equipment." 
+                        data-image="images/portfolio-image2.jpg">View Details</a>
+                    </div>
                 </div>
-            </div>
-            <!-- Portfolio Card 3 -->
-            <div class="col-md-4">
-                <div class="portfolio-card shadow-lg">
-                    <img src="images/portfolio-image3.jpg" alt="Healthcare provider interacting with a patient in a comfortable setting" class="img-fluid mb-3 rounded">
-                    <h5 class="portfolio-title">Patient-Centered Healthcare</h5>
-                    <p class="text-muted">Focusing on patient care and comfort.</p>
-                    <a href="#" class="btn btn-outline-primary view-details" 
-                    data-title="Patient-Centered Healthcare" 
-                    data-description="Focusing on patient care and comfort." 
-                    data-image="images/portfolio-image3.jpg">View Details</a>
+                <!-- Portfolio Card 3 -->
+                <div class="col-md-4">
+                    <div class="portfolio-card shadow-lg">
+                        <img src="images/portfolio-image3.jpg" alt="Healthcare provider interacting with a patient in a comfortable setting" class="img-fluid mb-3 rounded">
+                        <h5 class="portfolio-title">Patient-Centered Healthcare</h5>
+                        <p class="text-muted">Focusing on patient care and comfort.</p>
+                        <a href="#" class="btn btn-outline-primary view-details" 
+                        data-title="Patient-Centered Healthcare" 
+                        data-description="Focusing on patient care and comfort." 
+                        data-image="images/portfolio-image3.jpg">View Details</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <!-- Portfolio Section Ends here -->
 
     <!-- About Section Start here -->
@@ -640,13 +640,16 @@
                     <!-- Contact Form -->
                     <form action="#" method="POST" class="contact-form">
                         <div class="form-group mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
                         </div>
                         <div class="form-group mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
                         </div>
                         <div class="form-group mb-4">
-                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
                     </form>
@@ -657,6 +660,7 @@
         </div>
     </section>
     <!-- Contact Section Ends here -->
+
 
 
     <!-- Footer Section Start here -->
@@ -670,10 +674,10 @@
                 <div class="col-lg-6">
                     <p class="mb-3">Follow us on:</p>
                     <div class="social-icons d-flex justify-content-center">
-                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/"" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" class="text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" class="text-white"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>

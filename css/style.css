@@ -525,6 +525,18 @@ a:hover {
     text-align: left;
     margin-bottom: 30px;
 }
+.contact-form .form-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #037dff; /* Match the color theme */
+    text-align: left; /* Align labels with form controls */
+}
+
+.contact-form .form-label:hover {
+    color: #0056b3; /* Match hover color with button hover */
+}
 .contact-form .form-control {
     border-radius: 8px;
     border: 2px solid #d3d9df;
@@ -789,6 +801,9 @@ a:hover {
     }
     #contact {
         padding: 60px 0;
+    }
+    .contact-form .form-label {
+        font-size: 0.9rem;
     }
     .footer {
         padding: 40px 0;
