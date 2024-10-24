@@ -200,8 +200,23 @@ document.addEventListener('DOMContentLoaded', function () {
             // Show the modal
             $('#portfolioModal').modal('show');
         });
-    });
-    
-    
+         // Handle click on blog read more button
+        $('.read-more').on('click', function () {
+            const title = $(this).data('title');
+            const content = $(this).data('content');
+            const image = $(this).data('image');
 
+    
+            // Set the modal content
+            $('#blogModalLabel').text(title);
+            $('#blogContent').text(content);
+
+            // Handle empty or missing image
+            const imageSrc = image ? image : 'images/default-image.jpg';
+            $('#blogImage').attr('src', imageSrc);
+
+            // Show the modal
+            $('#blogModal').modal('show');
+        });
+    });
 });

@@ -68,6 +68,7 @@
     <div class="container">
         <h2 class="section-title mb-5">Our Work</h2>
         <div class="row g-4">
+            <!-- Portfolio Card 1 -->
             <div class="col-md-4">
                 <div class="portfolio-card shadow-lg">
                     <img src="images/portfolio-image1.jpg" alt="Modern Clinic Solution" class="img-fluid mb-3 rounded">
@@ -79,6 +80,7 @@
                     data-image="images/portfolio-image1.jpg">View Details</a>
                 </div>
             </div>
+            <!-- Portfolio Card 2 -->
             <div class="col-md-4">
                 <div class="portfolio-card shadow-lg">
                     <img src="images/portfolio-image2.jpg" alt="High-Tech Medical Facility" class="img-fluid mb-3 rounded">
@@ -90,6 +92,7 @@
                     data-image="images/portfolio-image2.jpg">View Details</a>
                 </div>
             </div>
+            <!-- Portfolio Card 3 -->
             <div class="col-md-4">
                 <div class="portfolio-card shadow-lg">
                     <img src="images/portfolio-image3.jpg" alt="Patient-Centered Healthcare" class="img-fluid mb-3 rounded">
@@ -594,40 +597,31 @@
                 <!-- Blog Post 1 -->
                 <div class="col-md-4">
                     <div class="blog-card shadow-sm">
-                        <div class="blog-img-wrapper">
                             <img src="images/blog-image1.jpg" alt="Blog Post 1" class="img-fluid rounded-top">
-                        </div>
-                        <div class="blog-content p-4">
                             <h5 class="blog-title">Understanding Your Health Insurance</h5>
                             <p class="blog-summary text-muted">Learn about the various health insurance options available to you.</p>
-                            <a href="#" class="btn btn-outline-primary read-more" data-title="Understanding Your Health Insurance" data-content="Learn about the various health insurance options available to you.">Read More</a>
-                        </div>
+                            <a href="#" class="btn btn-outline-primary read-more" data-title="Understanding Your Health Insurance" data-content="Learn about the various health insurance options available to you."
+                            data-image="images/blog-image1.jpg">Read More</a>
                     </div>
                 </div>
                 <!-- Blog Post 2 -->
                 <div class="col-md-4">
                     <div class="blog-card shadow-sm">
-                        <div class="blog-img-wrapper">
                             <img src="images/blog-image2.jpg" alt="Blog Post 2" class="img-fluid rounded-top">
-                        </div>
-                        <div class="blog-content p-4">
                             <h5 class="blog-title">The Importance of Regular Check-Ups</h5>
                             <p class="blog-summary text-muted">Regular health check-ups can prevent serious health issues.</p>
-                            <a href="#" class="btn btn-outline-primary read-more" data-title="The Importance of Regular Check-Ups" data-content="Regular health check-ups can prevent serious health issues.">Read More</a>
-                        </div>
+                            <a href="#" class="btn btn-outline-primary read-more" data-title="The Importance of Regular Check-Ups" data-content="Regular health check-ups can prevent serious health issues."
+                            data-image="images/blog-image2.jpg">Read More</a>
                     </div>
                 </div>
                 <!-- Blog Post 3 -->
                 <div class="col-md-4">
                     <div class="blog-card shadow-sm">
-                        <div class="blog-img-wrapper">
                             <img src="images/blog-image3.jpg" alt="Blog Post 3" class="img-fluid rounded-top">
-                        </div>
-                        <div class="blog-content p-4">
                             <h5 class="blog-title">Healthy Living Tips</h5>
                             <p class="blog-summary text-muted">Simple changes in your daily routine can lead to a healthier life.</p>
-                            <a href="#" class="btn btn-outline-primary read-more" data-title="Healthy Living Tips" data-content="Simple changes in your daily routine can lead to a healthier life.">Read More</a>
-                        </div>
+                            <a href="#" class="btn btn-outline-primary read-more" data-title="Healthy Living Tips" data-content="Simple changes in your daily routine can lead to a healthier life."
+                            data-image="images/blog-image3.jpg">Read More</a>
                     </div>
                 </div>
             </div>
@@ -714,6 +708,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <!-- Ensure you set a default image path -->
+                    <img src="images/default-image.jpg" alt="Blog item" class="img-fluid mb-4 rounded" id="blogImage">
                     <p id="blogContent" class="lead"></p>
                 </div>
             </div>
