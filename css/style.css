@@ -176,7 +176,7 @@ a:hover {
     
 }
 .portfolio-card:hover .portfolio-title {
-    color: #0056b3;
+    color: var(--primary);
 }
 .portfolio-card p {
     font-size: 1rem;
@@ -303,7 +303,7 @@ a:hover {
 }
 #weekly-schedule h2 {
     text-align: center;
-    color: #333;
+    color: var(--primary);
     font-size: 28px;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -314,7 +314,7 @@ a:hover {
     margin: 0 auto;
 }
 .schedule-table thead th {
-    background-color: #3a7bd5;
+    background-color: var(--primary);
     color: white;
     text-align: center;
     padding: 15px;
@@ -502,7 +502,7 @@ a:hover {
 .section-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #037dff; /* Use a distinct color for better contrast */
+    color: var(--primary); /* Use a distinct color for better contrast */
     margin-bottom: 20px;
     position: relative;
     display: inline-block;
@@ -511,7 +511,7 @@ a:hover {
     content: "";
     width: 80px;
     height: 4px;
-    background-color: #037dff;
+    background-color: var(--primary);
     display: block;
     margin: 10px auto 0;
 }
@@ -530,12 +530,13 @@ a:hover {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #037dff; /* Match the color theme */
+    color: var(--primary); /* Match the color theme */
     text-align: left; /* Align labels with form controls */
 }
 
 .contact-form .form-label:hover {
-    color: #0056b3; /* Match hover color with button hover */
+    color: var(--primary); /* Match hover color with button hover */
+    opacity: 0.7;;
 }
 .contact-form .form-control {
     border-radius: 8px;
@@ -545,11 +546,11 @@ a:hover {
     transition: border-color 0.3s ease-in-out;
 }
 .contact-form .form-control:focus {
-    border-color: #037dff;
+    border-color: var(--primary);
     box-shadow: 0 0 10px rgba(3, 125, 255, 0.15);
 }
 .contact-form .btn {
-    background-color: #037dff;
+    background-color: var(--primary);
     border: none;
     padding: 14px 40px;
     font-size: 1.2rem;
@@ -558,15 +559,17 @@ a:hover {
     transition: background-color 0.3s ease-in-out;
 }
 .contact-form .btn:hover {
-    background-color: #0056b3;
+    background-color: var(--primary);
+    opacity: 0.7;
 }
 .email-link {
-    color: #037dff;
+    color: var(--primary);
     font-weight: bold;
     text-decoration: underline;
 }
 .email-link:hover {
-    color: #0056b3;
+    color: var(--primary);
+    opacity: 0.7;
 }
 .contact-form .form-control {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
