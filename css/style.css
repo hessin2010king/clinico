@@ -3,7 +3,7 @@
 
 /* General Styles */
 :root {
-    --primary: #007BFF ;
+    --primary: #00972b ;
 }
 * {
     margin: 0;
@@ -578,30 +578,34 @@ a:hover {
 
 /* Footer Styling */
 .footer {
-    background-color: #1a1a1a; /* A slightly lighter dark background for subtle contrast */
+    background-color: #1a1a1a; /* Dark background for contrast */
     color: #f8f9fa; /* Light text for readability */
-    text-align: center;
-    padding: 50px 0; /* Increased padding for a more spacious feel */
+    text-align: center; /* Center align the text */
+    padding: 15px 0; /* Reduced padding for a more compact feel */
     border-top: 1px solid #444; /* Subtle border for separation */
-    position: relative;
+    position: relative; /* Relative positioning for layout control */
 }
+
 .footer p {
-    margin: 0 0 15px; /* Consistent spacing for text elements */
-    font-size: 1.1rem; /* Slightly larger text for readability */
+    margin: 0; /* Remove margin for p elements */
+    font-size: 0.9rem; /* Smaller text for a more professional look */
 }
+
 .social-icons {
-    margin-top: 20px; /* More space between text and social icons */
-    display: inline-block;
+    margin-top: 5px; /* Minimal space above social icons */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icons */
 }
+
 .social-icons a {
-    color: #f8f9fa;
-    margin: 0 20px; /* More space between icons */
-    font-size: 1.6rem; /* Larger icons for better visibility */
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    color: #f8f9fa; /* Icon color */
+    margin: 0 10px; /* Slightly reduced space between icons */
+    font-size: 1.4rem; /* Smaller icons for a professional appearance */
+    transition: color 0.3s ease; /* Smooth transition on hover */
 }
+
 .social-icons a:hover {
     color: var(--primary); /* Light blue hover effect for contrast */
-    transform: scale(1.15); /* Slightly larger scale on hover */
 }
 
 
@@ -809,14 +813,16 @@ a:hover {
         font-size: 0.9rem;
     }
     .footer {
-        padding: 40px 0;
+        padding: 10px 0; /* Further reduced padding on smaller screens */
     }
+
     .social-icons a {
-        margin: 0 15px; /* Reduced spacing between icons on smaller screens */
-        font-size: 1.4rem; /* Smaller icons for smaller screens */
+        margin: 0 8px; /* Less spacing between icons on smaller screens */
+        font-size: 1.2rem; /* Smaller icons for better fit on mobile */
     }
+
     .footer p {
-        font-size: 1rem; /* Slightly smaller text for smaller screens */
+        font-size: 0.85rem; /* Smaller text for smaller screens */
     }
 }
 
@@ -830,7 +836,7 @@ a:hover {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .btn:hover {
-    background-color: #0056b3;
+    background-color: var(--primary);
     transform: translateY(-2px);
 }
 /* Responsive Image Styles */
@@ -875,8 +881,9 @@ h1, h2, h3 {
     transition: background-color 0.4s ease;
 }
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: var(--primary);
     box-shadow: 0 4px 15px rgba(0, 91, 174, 0.2);
+    opacity: 0.7;
 }
 /* Grid and Layout Adjustments */
 .row {
